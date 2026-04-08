@@ -1,8 +1,12 @@
-#include <iostream>
+#include<iostream>
 
-int main()
+int main(void)
 {
-	std::cout << "Hello World!" << std::endl;
-	return 0;
+	int x = 2; //literal
+	x = 5;
+	int y = x + 3;
 
+	std::cout << 1+2+y*x << std::endl;
+
+	return 0;
 }
